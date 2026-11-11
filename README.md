@@ -6,7 +6,6 @@
 
 **A reproducible audit that turns a risk score into its expected consequences for patients, and tells you when those consequences cannot be trusted.**
 
-[![tests](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
 ![Python 3.11](https://img.shields.io/badge/python-3.11-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Data: MIMIC-IV | eICU-CRD](https://img.shields.io/badge/data-MIMIC--IV%20%7C%20eICU--CRD-orange)

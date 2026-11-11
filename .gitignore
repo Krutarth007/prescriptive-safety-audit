@@ -1,0 +1,24 @@
+# Clinical data and derived patient-level artefacts must never be committed (PhysioNet data use agreement)
+*.parquet
+*.csv.gz
+*.feather
+**/cache/
+**/models/
+nb1_outputs/
+mimic-iv*/
+eicu*/
+failure_cases.*
+design_matrices.npz
+audit_inputs.npz
+*.joblib
+
+# Python and notebook clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db

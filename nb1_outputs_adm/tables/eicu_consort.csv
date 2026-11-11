@@ -1,0 +1,6 @@
+step,stays,patients,excluded
+All ICU stays,200859,139367,
+Adults (age >= 18),200234,138868,625.0
+First ICU stay per patient,138868,138868,61366.0
+Alive in ICU at anchor + buffer (LOS >= 10 h),128544,128544,10324.0
+Non-missing outcome,128541,128541,3.0

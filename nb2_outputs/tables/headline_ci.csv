@@ -1,0 +1,5 @@
+cohort,metric,mean,CI_lo,CI_hi
+MIMIC-hold,PSS,0.8213,0.8128,0.8293
+MIMIC-hold,DHI,-10.1089,-11.0764,-9.1952
+eICU-ext,PSS,0.8557,0.8532,0.8586
+eICU-ext,DHI,-12.1584,-12.5938,-11.7053

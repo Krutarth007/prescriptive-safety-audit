@@ -1,0 +1,6 @@
+estimator,ATE_riskdiff,CI_lo,CI_hi
+g-formula (common support),0.0745,0.0733,0.0758
+stabilised IPW (common support),0.0603,0.0399,0.079
+marginal structural model (common support),0.0909,,
+AIPW (common support),0.0641,0.051,0.0754
+DR-ATO (overlap weights),0.0125,-0.0101,0.091

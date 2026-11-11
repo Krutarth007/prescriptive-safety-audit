@@ -1,0 +1,5 @@
+comparison,cohort,AUROC_primary,AUROC_other,z,p_value,se
+lightgbm vs logreg,eICU-ext,0.8218,0.8132,80.402,<0.001,0.0001
+lightgbm vs random_forest,eICU-ext,0.8218,0.8088,116.545,<0.001,0.0001
+lightgbm vs hist_gb,eICU-ext,0.8218,0.8159,113.649,<0.001,0.0001
+lightgbm vs xgboost,eICU-ext,0.8218,0.8206,28.42,<0.001,0.0

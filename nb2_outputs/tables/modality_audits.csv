@@ -1,0 +1,5 @@
+treatment,n_treated_hold,n_treated_ext,c_for_benefit_hold,c_for_benefit_ext,PSS_hold,PSS_ext,DHI_hold,DHI_ext
+vaso_post,2470,14446,0.549,0.522,0.6895,0.6137,0.4596,1.3315
+vent_post,3113,33700,0.53,0.5,0.7597,0.8443,-7.1828,-19.3878
+rrt_post,458,4320,0.528,0.523,0.2748,0.3533,53.2883,43.3261
+any_organ_support_post,4015,39456,0.534,0.522,0.8268,0.8666,-13.489,-20.3051

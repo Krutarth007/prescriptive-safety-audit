@@ -1,0 +1,230 @@
+feature,role,dtype,mimic_missing_pct,eicu_missing_pct
+db,identifier,object,0.0,0.0
+patient_id,identifier,int32,0.0,0.0
+hadm_id,identifier,int32,0.0,0.0
+admission_age,demographic,int8,0.0,0.0
+sex,demographic,object,0.0,0.0
+race_group,demographic,object,0.0,0.0
+los_h,demographic,float32,0.0,0.0
+admission_type,demographic,object,0.0,0.0
+insurance,demographic,object,0.0,0.0
+in_hospital_mortality,outcome,int32,0.0,0.0
+icu_mortality,outcome,int32,0.0,0.0
+mortality_28d,outcome,int32,0.0,0.2
+hosp_los_days,outcome,float32,0.0,0.0
+dbp_min,physiology (pre-anchor),float32,2.4,2.8
+dbp_max,physiology (pre-anchor),float32,2.4,2.8
+dbp_mean,physiology (pre-anchor),float32,2.4,2.8
+dbp_last,physiology (pre-anchor),float32,2.4,2.8
+dbp_slope,physiology (pre-anchor),float32,2.4,100.0
+fio2_min,physiology (pre-anchor),float32,58.0,77.6
+fio2_max,physiology (pre-anchor),float32,58.0,77.6
+fio2_mean,physiology (pre-anchor),float32,58.0,77.6
+fio2_last,physiology (pre-anchor),float32,58.0,77.6
+fio2_slope,physiology (pre-anchor),float32,58.0,77.6
+gcs_eye_min,physiology (pre-anchor),float32,4.3,5.2
+gcs_eye_max,physiology (pre-anchor),float32,4.3,5.2
+gcs_eye_mean,physiology (pre-anchor),float32,4.3,5.2
+gcs_eye_last,physiology (pre-anchor),float32,4.3,5.2
+gcs_eye_slope,physiology (pre-anchor),float32,4.3,5.2
+gcs_motor_min,physiology (pre-anchor),float32,4.7,5.2
+gcs_motor_max,physiology (pre-anchor),float32,4.7,5.2
+gcs_motor_mean,physiology (pre-anchor),float32,4.7,5.2
+gcs_motor_last,physiology (pre-anchor),float32,4.7,5.2
+gcs_motor_slope,physiology (pre-anchor),float32,4.7,5.2
+gcs_verbal_min,physiology (pre-anchor),float32,4.5,5.2
+gcs_verbal_max,physiology (pre-anchor),float32,4.5,5.2
+gcs_verbal_mean,physiology (pre-anchor),float32,4.5,5.2
+gcs_verbal_last,physiology (pre-anchor),float32,4.5,5.2
+gcs_verbal_slope,physiology (pre-anchor),float32,4.5,5.2
+heart_rate_min,physiology (pre-anchor),float32,1.8,2.7
+heart_rate_max,physiology (pre-anchor),float32,1.8,2.7
+heart_rate_mean,physiology (pre-anchor),float32,1.8,2.7
+heart_rate_last,physiology (pre-anchor),float32,1.8,2.7
+heart_rate_slope,physiology (pre-anchor),float32,1.8,100.0
+height_cm_min,physiology (pre-anchor),float32,98.2,100.0
+height_cm_max,physiology (pre-anchor),float32,98.2,100.0
+height_cm_mean,physiology (pre-anchor),float32,98.2,100.0
+height_cm_last,physiology (pre-anchor),float32,98.2,100.0
+height_cm_slope,physiology (pre-anchor),float32,98.2,100.0
+mbp_min,physiology (pre-anchor),float32,1.8,2.8
+mbp_max,physiology (pre-anchor),float32,1.8,2.8
+mbp_mean,physiology (pre-anchor),float32,1.8,2.8
+mbp_last,physiology (pre-anchor),float32,1.8,2.8
+mbp_slope,physiology (pre-anchor),float32,1.8,100.0
+resp_rate_min,physiology (pre-anchor),float32,1.9,10.5
+resp_rate_max,physiology (pre-anchor),float32,1.9,10.5
+resp_rate_mean,physiology (pre-anchor),float64,1.9,10.5
+resp_rate_last,physiology (pre-anchor),float32,1.9,10.5
+resp_rate_slope,physiology (pre-anchor),float32,1.9,100.0
+sbp_min,physiology (pre-anchor),float32,2.4,2.8
+sbp_max,physiology (pre-anchor),float32,2.4,2.8
+sbp_mean,physiology (pre-anchor),float32,2.4,2.8
+sbp_last,physiology (pre-anchor),float32,2.4,2.8
+sbp_slope,physiology (pre-anchor),float32,2.4,100.0
+spo2_min,physiology (pre-anchor),float32,2.0,3.9
+spo2_max,physiology (pre-anchor),float32,2.0,3.9
+spo2_mean,physiology (pre-anchor),float32,2.0,3.9
+spo2_last,physiology (pre-anchor),float32,2.0,3.9
+spo2_slope,physiology (pre-anchor),float32,2.0,100.0
+temp_min,physiology (pre-anchor),float32,6.3,91.5
+temp_max,physiology (pre-anchor),float32,6.3,91.5
+temp_mean,physiology (pre-anchor),float32,6.3,91.5
+temp_last,physiology (pre-anchor),float32,6.3,91.5
+temp_slope,physiology (pre-anchor),float32,6.3,100.0
+weight_kg_min,physiology (pre-anchor),float32,83.3,100.0
+weight_kg_max,physiology (pre-anchor),float32,83.3,100.0
+weight_kg_mean,physiology (pre-anchor),float32,83.3,100.0
+weight_kg_last,physiology (pre-anchor),float32,83.3,100.0
+weight_kg_slope,physiology (pre-anchor),float32,83.3,100.0
+albumin_min,physiology (pre-anchor),float32,83.6,80.4
+albumin_max,physiology (pre-anchor),float32,83.6,80.4
+albumin_mean,physiology (pre-anchor),float32,83.6,80.4
+albumin_last,physiology (pre-anchor),float32,83.6,80.4
+albumin_slope,physiology (pre-anchor),float32,83.6,100.0
+anion_gap_min,physiology (pre-anchor),float32,30.9,66.2
+anion_gap_max,physiology (pre-anchor),float32,30.9,66.2
+anion_gap_mean,physiology (pre-anchor),float32,30.9,66.2
+anion_gap_last,physiology (pre-anchor),float32,30.9,66.2
+anion_gap_slope,physiology (pre-anchor),float32,30.9,100.0
+bicarbonate_min,physiology (pre-anchor),float32,29.2,50.1
+bicarbonate_max,physiology (pre-anchor),float32,29.2,50.1
+bicarbonate_mean,physiology (pre-anchor),float32,29.2,50.1
+bicarbonate_last,physiology (pre-anchor),float32,29.2,50.1
+bicarbonate_slope,physiology (pre-anchor),float32,29.2,100.0
+bilirubin_total_min,physiology (pre-anchor),float32,74.2,82.0
+bilirubin_total_max,physiology (pre-anchor),float32,74.2,82.0
+bilirubin_total_mean,physiology (pre-anchor),float32,74.2,82.0
+bilirubin_total_last,physiology (pre-anchor),float32,74.2,82.0
+bilirubin_total_slope,physiology (pre-anchor),float32,74.2,100.0
+bun_min,physiology (pre-anchor),float32,29.1,58.0
+bun_max,physiology (pre-anchor),float32,29.1,58.0
+bun_mean,physiology (pre-anchor),float32,29.1,58.0
+bun_last,physiology (pre-anchor),float32,29.1,58.0
+bun_slope,physiology (pre-anchor),float32,29.1,100.0
+chloride_min,physiology (pre-anchor),float32,26.3,58.1
+chloride_max,physiology (pre-anchor),float32,26.3,58.1
+chloride_mean,physiology (pre-anchor),float32,26.3,58.1
+chloride_last,physiology (pre-anchor),float32,26.3,58.1
+chloride_slope,physiology (pre-anchor),float32,26.3,100.0
+creatinine_min,physiology (pre-anchor),float32,29.0,57.7
+creatinine_max,physiology (pre-anchor),float32,29.0,57.7
+creatinine_mean,physiology (pre-anchor),float32,29.0,57.7
+creatinine_last,physiology (pre-anchor),float32,29.0,57.7
+creatinine_slope,physiology (pre-anchor),float32,29.0,100.0
+glucose_min,physiology (pre-anchor),float32,26.5,34.1
+glucose_max,physiology (pre-anchor),float32,26.5,34.1
+glucose_mean,physiology (pre-anchor),float32,26.5,34.1
+glucose_last,physiology (pre-anchor),float32,26.5,34.1
+glucose_slope,physiology (pre-anchor),float32,26.5,100.0
+hematocrit_min,physiology (pre-anchor),float32,27.4,57.8
+hematocrit_max,physiology (pre-anchor),float32,27.4,57.8
+hematocrit_mean,physiology (pre-anchor),float32,27.4,57.8
+hematocrit_last,physiology (pre-anchor),float32,27.4,57.8
+hematocrit_slope,physiology (pre-anchor),float32,27.4,100.0
+hemoglobin_min,physiology (pre-anchor),float32,29.3,57.8
+hemoglobin_max,physiology (pre-anchor),float32,29.3,57.8
+hemoglobin_mean,physiology (pre-anchor),float32,29.3,57.8
+hemoglobin_last,physiology (pre-anchor),float32,29.3,57.8
+hemoglobin_slope,physiology (pre-anchor),float32,29.3,100.0
+inr_min,physiology (pre-anchor),float32,40.8,79.4
+inr_max,physiology (pre-anchor),float32,40.8,79.4
+inr_mean,physiology (pre-anchor),float32,40.8,79.4
+inr_last,physiology (pre-anchor),float32,40.8,79.4
+inr_slope,physiology (pre-anchor),float32,40.8,100.0
+lactate_min,physiology (pre-anchor),float32,55.2,81.8
+lactate_max,physiology (pre-anchor),float32,55.2,81.8
+lactate_mean,physiology (pre-anchor),float32,55.2,81.8
+lactate_last,physiology (pre-anchor),float32,55.2,81.8
+lactate_slope,physiology (pre-anchor),float32,55.2,100.0
+paco2_min,physiology (pre-anchor),float32,54.3,75.2
+paco2_max,physiology (pre-anchor),float32,54.3,75.2
+paco2_mean,physiology (pre-anchor),float32,54.3,75.2
+paco2_last,physiology (pre-anchor),float32,54.3,75.2
+paco2_slope,physiology (pre-anchor),float32,54.3,100.0
+pao2_min,physiology (pre-anchor),float32,54.3,75.0
+pao2_max,physiology (pre-anchor),float32,54.3,75.0
+pao2_mean,physiology (pre-anchor),float32,54.3,75.0
+pao2_last,physiology (pre-anchor),float32,54.3,75.0
+pao2_slope,physiology (pre-anchor),float32,54.3,100.0
+ph_min,physiology (pre-anchor),float32,52.8,75.4
+ph_max,physiology (pre-anchor),float32,52.8,75.4
+ph_mean,physiology (pre-anchor),float32,52.8,75.4
+ph_last,physiology (pre-anchor),float32,52.8,75.4
+ph_slope,physiology (pre-anchor),float32,52.8,100.0
+platelets_min,physiology (pre-anchor),float32,30.3,62.1
+platelets_max,physiology (pre-anchor),float32,30.3,62.1
+platelets_mean,physiology (pre-anchor),float32,30.3,62.1
+platelets_last,physiology (pre-anchor),float32,30.3,62.1
+platelets_slope,physiology (pre-anchor),float32,30.3,100.0
+potassium_min,physiology (pre-anchor),float32,25.5,53.8
+potassium_max,physiology (pre-anchor),float32,25.5,53.8
+potassium_mean,physiology (pre-anchor),float32,25.5,53.8
+potassium_last,physiology (pre-anchor),float32,25.5,53.8
+potassium_slope,physiology (pre-anchor),float32,25.5,100.0
+ptt_min,physiology (pre-anchor),float32,40.9,84.2
+ptt_max,physiology (pre-anchor),float32,40.9,84.2
+ptt_mean,physiology (pre-anchor),float32,40.9,84.2
+ptt_last,physiology (pre-anchor),float32,40.9,84.2
+ptt_slope,physiology (pre-anchor),float32,40.9,100.0
+sodium_min,physiology (pre-anchor),float32,25.9,55.8
+sodium_max,physiology (pre-anchor),float32,25.9,55.8
+sodium_mean,physiology (pre-anchor),float32,25.9,55.8
+sodium_last,physiology (pre-anchor),float32,25.9,55.8
+sodium_slope,physiology (pre-anchor),float32,25.9,100.0
+wbc_min,physiology (pre-anchor),float32,30.7,62.1
+wbc_max,physiology (pre-anchor),float32,30.7,62.1
+wbc_mean,physiology (pre-anchor),float32,30.7,62.1
+wbc_last,physiology (pre-anchor),float32,30.7,62.1
+wbc_slope,physiology (pre-anchor),float32,30.7,100.0
+sofa_resp,severity (first-day SOFA),int32,0.0,0.0
+sofa_coag,severity (first-day SOFA),int32,0.0,0.0
+sofa_liver,severity (first-day SOFA),int32,0.0,0.0
+sofa_cardio,severity (first-day SOFA),int32,0.0,0.0
+sofa_cns,severity (first-day SOFA),int32,0.0,0.0
+sofa_renal,severity (first-day SOFA),int32,0.0,0.0
+sofa_total,severity (first-day SOFA),float32,0.0,0.0
+sofa_coverage,severity (first-day SOFA),float32,0.0,0.0
+vaso_post,treatment (post-anchor / exposure),int8,0.0,0.0
+vaso_day1,treatment (post-anchor / exposure),int8,0.0,0.0
+inotrope_post,treatment (post-anchor / exposure),int8,0.0,0.0
+vent_post,treatment (post-anchor / exposure),int8,0.0,0.0
+vent_day1,treatment (post-anchor / exposure),int8,0.0,0.0
+invasive_vent_post,treatment (post-anchor / exposure),int8,0.0,0.0
+rrt_post,treatment (post-anchor / exposure),int8,0.0,0.0
+rrt_day1,treatment (post-anchor / exposure),int8,0.0,0.0
+n_pressor_types_post,treatment (post-anchor / exposure),int8,0.0,0.0
+any_organ_support_post,treatment (post-anchor / exposure),int8,0.0,0.0
+chf,comorbidity,float32,0.0,0.0
+arrhythmia,comorbidity,float32,0.0,0.0
+valvular,comorbidity,float32,0.0,0.0
+pulm_circ,comorbidity,float32,0.0,0.0
+pvd,comorbidity,float32,0.0,0.0
+htn_uncomp,comorbidity,float32,0.0,0.0
+htn_comp,comorbidity,float32,0.0,0.0
+paralysis,comorbidity,float32,0.0,0.0
+neuro_other,comorbidity,float32,0.0,0.0
+chronic_pulm,comorbidity,float32,0.0,0.0
+diab_uncomp,comorbidity,float32,0.0,0.0
+diab_comp,comorbidity,float32,0.0,0.0
+hypothyroid,comorbidity,float32,0.0,0.0
+renal_failure,comorbidity,float32,0.0,0.0
+liver,comorbidity,float32,0.0,0.0
+pud,comorbidity,float32,0.0,0.0
+hiv,comorbidity,float32,0.0,0.0
+lymphoma,comorbidity,float32,0.0,0.0
+mets,comorbidity,float32,0.0,0.0
+solid_tumour,comorbidity,float32,0.0,0.0
+rheum,comorbidity,float32,0.0,0.0
+coagulopathy,comorbidity,float32,0.0,0.0
+obesity,comorbidity,float32,0.0,0.0
+weight_loss,comorbidity,float32,0.0,0.0
+fluid_electro,comorbidity,float32,0.0,0.0
+blood_loss_anem,comorbidity,float32,0.0,0.0
+def_anemia,comorbidity,float32,0.0,0.0
+alcohol,comorbidity,float32,0.0,0.0
+drug_abuse,comorbidity,float32,0.0,0.0
+psychoses,comorbidity,float32,0.0,0.0
+depression,comorbidity,float32,0.0,0.0
+elix_count,comorbidity,float32,0.0,0.0
+van_walraven,comorbidity,float32,0.0,0.0

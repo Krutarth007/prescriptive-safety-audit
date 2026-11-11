@@ -1,0 +1,225 @@
+{
+  "started": "2026-07-20T00:08:17",
+  "seed": 20260707,
+  "finished": "2026-07-20T00:24:10",
+  "primary_model": "lightgbm",
+  "available_learners": {
+    "lightgbm": true,
+    "xgboost": true,
+    "catboost": false,
+    "shap": false
+  },
+  "nested_cv_auroc": {
+    "model": "lightgbm",
+    "auroc_mean": 0.9055782339075845,
+    "auroc_sd": 0.004814557406168133,
+    "folds": [
+      0.9046895562065612,
+      0.9080774406655249,
+      0.913441349962637,
+      0.899802069573787,
+      0.9018807531294125
+    ]
+  },
+  "ate_estimates": [
+    {
+      "estimator": "g-formula (common support)",
+      "ATE_riskdiff": 0.0745,
+      "CI_lo": 0.0733,
+      "CI_hi": 0.0758
+    },
+    {
+      "estimator": "stabilised IPW (common support)",
+      "ATE_riskdiff": 0.0603,
+      "CI_lo": 0.0399,
+      "CI_hi": 0.079
+    },
+    {
+      "estimator": "marginal structural model (common support)",
+      "ATE_riskdiff": 0.0909,
+      "CI_lo": NaN,
+      "CI_hi": NaN
+    },
+    {
+      "estimator": "AIPW (common support)",
+      "ATE_riskdiff": 0.0641,
+      "CI_lo": 0.051,
+      "CI_hi": 0.0754
+    },
+    {
+      "estimator": "DR-ATO (overlap weights)",
+      "ATE_riskdiff": 0.0125,
+      "CI_lo": -0.0101,
+      "CI_hi": 0.091
+    }
+  ],
+  "evalue": {
+    "risk_ratio": 1.7810021711393749,
+    "RR_for_evalue": 1.7810021711393749,
+    "E_value": 2.9603946259498137
+  },
+  "tii": {
+    "TII_hold_mean_abs": 0.05076336854466624,
+    "TII_hold_signed_mean": 0.04902557619734836,
+    "TII_ext_mean_abs": 0.040651926538155476,
+    "AUROC_blind": 0.9088180001736216,
+    "AUROC_treatment_aware": 0.9121789034530182,
+    "delta_AUROC": 0.003360903279396643
+  },
+  "headline": {
+    "MIMIC-hold_PSS": [
+      0.8213,
+      0.8128,
+      0.8293
+    ],
+    "MIMIC-hold_DHI": [
+      -10.1089,
+      -11.0764,
+      -9.1952
+    ],
+    "eICU-ext_PSS": [
+      0.8557,
+      0.8532,
+      0.8586
+    ],
+    "eICU-ext_DHI": [
+      -12.1584,
+      -12.5938,
+      -11.7053
+    ]
+  },
+  "prescriptive_scores": [
+    {
+      "model": "logreg",
+      "cohort": "MIMIC-hold",
+      "PSS": 0.813,
+      "DHI": -10.3823,
+      "DHI_frac": 0.1707,
+      "CAR_mean": 0.8373,
+      "concordance_r_b": 0.3361
+    },
+    {
+      "model": "random_forest",
+      "cohort": "MIMIC-hold",
+      "PSS": 0.8319,
+      "DHI": -10.9473,
+      "DHI_frac": 0.1707,
+      "CAR_mean": 0.8398,
+      "concordance_r_b": 0.3309
+    },
+    {
+      "model": "hist_gb",
+      "cohort": "MIMIC-hold",
+      "PSS": 0.8211,
+      "DHI": -10.2615,
+      "DHI_frac": 0.1463,
+      "CAR_mean": 0.8391,
+      "concordance_r_b": 0.3146
+    },
+    {
+      "model": "lightgbm",
+      "cohort": "MIMIC-hold",
+      "PSS": 0.8212,
+      "DHI": -10.1605,
+      "DHI_frac": 0.1463,
+      "CAR_mean": 0.8395,
+      "concordance_r_b": 0.3142
+    },
+    {
+      "model": "xgboost",
+      "cohort": "MIMIC-hold",
+      "PSS": 0.8218,
+      "DHI": -10.1069,
+      "DHI_frac": 0.1463,
+      "CAR_mean": 0.8396,
+      "concordance_r_b": 0.3152
+    },
+    {
+      "model": "logreg",
+      "cohort": "eICU-ext",
+      "PSS": 0.8555,
+      "DHI": -12.3779,
+      "DHI_frac": 0.0488,
+      "CAR_mean": 0.8348,
+      "concordance_r_b": 0.4065
+    },
+    {
+      "model": "random_forest",
+      "cohort": "eICU-ext",
+      "PSS": 0.8314,
+      "DHI": -11.4937,
+      "DHI_frac": 0.0732,
+      "CAR_mean": 0.8049,
+      "concordance_r_b": 0.4041
+    },
+    {
+      "model": "hist_gb",
+      "cohort": "eICU-ext",
+      "PSS": 0.8602,
+      "DHI": -12.3732,
+      "DHI_frac": 0.0244,
+      "CAR_mean": 0.8327,
+      "concordance_r_b": 0.3792
+    },
+    {
+      "model": "lightgbm",
+      "cohort": "eICU-ext",
+      "PSS": 0.8557,
+      "DHI": -12.163,
+      "DHI_frac": 0.0488,
+      "CAR_mean": 0.8293,
+      "concordance_r_b": 0.3803
+    },
+    {
+      "model": "xgboost",
+      "cohort": "eICU-ext",
+      "PSS": 0.8624,
+      "DHI": -12.4368,
+      "DHI_frac": 0.0244,
+      "CAR_mean": 0.8355,
+      "concordance_r_b": 0.376
+    }
+  ],
+  "risk_treatment_overlap": {
+    "top_k": 15,
+    "overlap_count": 0,
+    "overlap_fraction": 0.0,
+    "overlap_features": []
+  },
+  "figures": [
+    "fig_ate_cate.png",
+    "fig_attributions.png",
+    "fig_audit_operating_characteristic.png",
+    "fig_decision_curves.png",
+    "fig_deployment_safety_curves.png",
+    "fig_discrimination_calibration.png",
+    "fig_failure_cases.png",
+    "fig_inversion_disagreement.png",
+    "fig_love_balance.png",
+    "fig_pdp_ice_treatment.png",
+    "fig_propensity_overlap.png",
+    "fig_subgroup_forest.png",
+    "fig_waterfall_sankey.png"
+  ],
+  "tables": [
+    "ablation_mitigation.csv",
+    "alternative_rules_compliance.csv",
+    "ate_estimates.csv",
+    "cate_learner_validation.csv",
+    "covariate_balance.csv",
+    "covariate_balance_full.csv",
+    "delong_tests.csv",
+    "failure_cases.csv",
+    "fdr_sweep.csv",
+    "headline_ci.csv",
+    "importance_risk_model.csv",
+    "modality_audits.csv",
+    "model_performance.csv",
+    "prescriptive_safety_scores.csv",
+    "robustness_battery.csv",
+    "semisynthetic_operating_characteristic.csv",
+    "semisynthetic_recovery.csv",
+    "semisynthetic_validation.csv",
+    "subgroup_prescriptive_safety.csv"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "c_for_benefit_floor": 0.6316231910916443,
+  "c_for_benefit_real_hold": 0.5534816941852118,
+  "c_for_benefit_real_ext": 0.47162162162162163,
+  "recovery_tolerance": 0.3,
+  "oracle_c_for_benefit": 0.6452593122036272,
+  "real_below_floor": true
+}

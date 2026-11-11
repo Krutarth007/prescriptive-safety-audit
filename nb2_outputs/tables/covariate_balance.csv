@@ -1,0 +1,5 @@
+covariate,SMD_unweighted,SMD_weighted
+sofa_total,1.195,0.68
+admission_age,0.004,0.006
+lactate_max,0.413,0.28
+creatinine_max,0.327,0.207

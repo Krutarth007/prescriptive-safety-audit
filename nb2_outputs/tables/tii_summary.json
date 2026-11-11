@@ -1,0 +1,8 @@
+{
+  "TII_hold_mean_abs": 0.05076336854466624,
+  "TII_hold_signed_mean": 0.04902557619734836,
+  "TII_ext_mean_abs": 0.040651926538155476,
+  "AUROC_blind": 0.9088180001736216,
+  "AUROC_treatment_aware": 0.9121789034530182,
+  "delta_AUROC": 0.003360903279396643
+}

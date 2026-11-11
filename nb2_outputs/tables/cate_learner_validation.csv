@@ -1,0 +1,9 @@
+learner,cohort,c_for_benefit,benefit_sd,benefit_mean
+S,MIMIC-hold,0.535,0.067,-0.042
+S,eICU-ext,0.499,0.06,-0.029
+T,MIMIC-hold,0.541,0.127,-0.063
+T,eICU-ext,0.516,0.121,-0.049
+X,MIMIC-hold,0.566,0.079,-0.056
+X,eICU-ext,0.491,0.07,-0.045
+DR,MIMIC-hold,0.553,0.099,-0.062
+DR,eICU-ext,0.472,0.13,-0.039

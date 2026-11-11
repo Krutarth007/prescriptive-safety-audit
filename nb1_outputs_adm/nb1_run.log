@@ -1,0 +1,60 @@
+21:11:56 | INFO    | Python 3.11.5 on Windows-10-10.0.26200-SP0
+21:11:56 | INFO    |   numpy       1.24.4
+21:11:56 | INFO    |   pandas      2.3.3
+21:11:56 | INFO    |   scipy       1.11.1
+21:11:56 | INFO    |   matplotlib  3.7.2
+21:11:56 | INFO    |   seaborn     0.12.2
+21:11:56 | INFO    |   pyarrow     24.0.0
+21:11:56 | INFO    |   sklearn     1.3.0
+21:11:56 | INFO    | Seed = 20260707 | tqdm=True | seaborn=True | scipy=True
+21:11:56 | INFO    | All required tables located.
+21:11:56 | INFO    | Utilities loaded.
+21:11:56 | INFO    | MIMIC concept dictionaries: 20 vital ids, 28 lab ids, 7 vaso ids
+21:11:56 | INFO    | START  MIMIC base tables
+21:11:59 | INFO    | DONE   MIMIC base tables  (3.0s)
+21:12:00 | INFO    | MIMIC raw ICU stays: 73181 (patients: 50920)
+21:12:00 | INFO    | MIMIC final cohort: 49684 stays
+21:12:00 | INFO    | MIMIC in-hospital mortality: 9.8% | ICU mortality: 6.5%
+21:12:00 | INFO    | Elixhauser mapping compiled: 31 categories
+21:12:00 | INFO    | loaded mimic_comorbid from cache
+21:12:00 | INFO    | MIMIC comorbidity table: 47609 admissions, median Elixhauser count = 4
+21:12:00 | INFO    | loaded mimic_vitals from cache
+21:12:00 | INFO    | MIMIC vitals wide table: 48955 stays x 66 columns
+21:12:01 | INFO    | loaded mimic_labs from cache
+21:12:01 | INFO    | MIMIC labs wide table: 49684 stays x 101 columns
+21:12:01 | INFO    | loaded mimic_treat from cache
+21:12:01 | INFO    | MIMIC post-anchor treatment rates: vaso 27.6% | vent 38.5% | rrt 3.7%
+21:12:01 | INFO    | MIMIC first-day SOFA: median 3 (IQR 1-7), mean coverage 0.66
+21:12:04 | INFO    | cached mimic_analytic               rows=49684    cols=229
+21:12:05 | INFO    | MIMIC analytic table: 49684 rows x 229 cols (165 physiology, 33 comorbidity)
+21:12:05 | INFO    | eICU dictionaries ready: 7 periodic, 3 aperiodic, 22 lab names
+21:12:06 | INFO    | eICU aggregation helpers loaded.
+21:12:06 | INFO    | START  eICU patient table
+21:12:07 | INFO    | DONE   eICU patient table  (1.0s)
+21:12:09 | INFO    | eICU final cohort: 128541 stays
+21:12:09 | INFO    | eICU in-hospital mortality: 8.6% | ICU mortality: 5.2%
+21:12:09 | INFO    | loaded eicu_vitals from cache
+21:12:09 | INFO    | eICU vitals wide table: 128106 stays x 49 columns
+21:12:09 | INFO    | loaded eicu_labs from cache
+21:12:09 | INFO    | eICU labs wide table: 98563 stays x 81 columns
+21:12:09 | INFO    | loaded eicu_treat from cache
+21:12:09 | INFO    | eICU post-anchor treatment rates: vaso 16.3% | vent 33.8% | rrt 4.5%
+21:12:09 | INFO    | loaded eicu_comorbid from cache
+21:12:09 | INFO    | eICU comorbidity table: 68666 stays, median Elixhauser count = 1
+21:12:10 | INFO    | eICU first-day SOFA: median 2 (IQR 1-4), mean coverage 0.51
+21:12:16 | INFO    | cached eicu_analytic                rows=128541   cols=229
+21:12:19 | INFO    | eICU analytic table: 128541 rows x 229 cols
+21:12:19 | INFO    | Feature dictionary written: 229 columns
+21:12:20 | INFO    | Plausibility filtering removed 1014650 MIMIC and 15532 eICU implausible cell values
+21:12:26 | INFO    | Combined analytic table: 178225 rows (MIMIC 49684 + eICU 128541)
+21:12:30 | INFO    | figure -> fig_missingness_heatmap (.png/.pdf)
+21:12:30 | INFO    | Running MICE imputation sensitivity...
+21:13:06 | INFO    | MICE sensitivity complete. Mean correlation: 0.910
+21:13:06 | INFO    | MCAR tests complete for 23 features
+21:13:08 | INFO    | figure -> fig_consort_flow (.png/.pdf)
+21:13:09 | INFO    | Table 1 written (54 rows).
+21:13:10 | INFO    | figure -> fig_outcome_treatment_rates (.png/.pdf)
+21:13:12 | INFO    | figure -> fig_sofa_distribution (.png/.pdf)
+21:13:21 | INFO    | figure -> fig_feature_violins (.png/.pdf)
+21:13:24 | INFO    | figure -> fig_correlation_heatmap (.png/.pdf)
+21:13:25 | INFO    | Manifest written to C:\Users\<user>\Downloads\nb1_outputs_adm\nb1_manifest.json

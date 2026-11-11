@@ -1,0 +1,20 @@
+\begin{table}
+\caption{Prescriptive Safety Audit metrics by model and cohort. PSS higher is safer; DHI is mean positive net excess deaths per 1000 across the operating range.}
+\label{tab:prescriptive}
+\begin{tabular}{llrrrrrll}
+\toprule
+model & cohort & PSS & DHI & DHI\_frac & CAR\_mean & concordance\_r\_b & PSS 95\% CI & DHI 95\% CI \\
+\midrule
+logreg & MIMIC-hold & 0.813000 & -10.382000 & 0.171000 & 0.837000 & 0.336000 &  &  \\
+random\_forest & MIMIC-hold & 0.832000 & -10.947000 & 0.171000 & 0.840000 & 0.331000 &  &  \\
+hist\_gb & MIMIC-hold & 0.821000 & -10.262000 & 0.146000 & 0.839000 & 0.315000 &  &  \\
+lightgbm & MIMIC-hold & 0.821000 & -10.160000 & 0.146000 & 0.840000 & 0.314000 & [0.813, 0.829] & [-11.076, -9.195] \\
+xgboost & MIMIC-hold & 0.822000 & -10.107000 & 0.146000 & 0.840000 & 0.315000 &  &  \\
+logreg & eICU-ext & 0.856000 & -12.378000 & 0.049000 & 0.835000 & 0.406000 &  &  \\
+random\_forest & eICU-ext & 0.831000 & -11.494000 & 0.073000 & 0.805000 & 0.404000 &  &  \\
+hist\_gb & eICU-ext & 0.860000 & -12.373000 & 0.024000 & 0.833000 & 0.379000 &  &  \\
+lightgbm & eICU-ext & 0.856000 & -12.163000 & 0.049000 & 0.829000 & 0.380000 & [0.853, 0.859] & [-12.594, -11.705] \\
+xgboost & eICU-ext & 0.862000 & -12.437000 & 0.024000 & 0.836000 & 0.376000 &  &  \\
+\bottomrule
+\end{tabular}
+\end{table}

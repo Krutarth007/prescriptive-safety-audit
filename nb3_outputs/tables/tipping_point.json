@@ -1,0 +1,8 @@
+{
+  "additive_bias_to_nullify_DHI": 0.0,
+  "additive_bias_in_benefit_SD_units": 0.0,
+  "multiplicative_factor_to_nullify_DHI": 0.0,
+  "benefit_sd": 0.09931373896647669,
+  "robust_across_tested_range": false,
+  "max_tested_bias_SD": 28.862264638240163
+}

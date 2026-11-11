@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="1420" viewBox="0 0 2000 1420">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect x="0" y="0" width="2000" height="1420" fill="#ffffff"/>
+<circle cx="52" cy="44" r="24" fill="#1d1d1b"/>
+<text x="52" y="54" font-family="Inter" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">A</text>
+<text x="92" y="56" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#1d1d1b">Study design: one treatment decision, 24 hours after ICU admission</text>
+<rect x="30" y="100" width="530" height="180" rx="14" ry="14" fill="#eaf2fc" stroke="#2a78d6" stroke-width="2"/>
+<rect x="30" y="100" width="12" height="180" rx="6" fill="#2a78d6"/>
+<text x="62" y="142" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">MIMIC-IV, version 2.2</text>
+<text x="62" y="176" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">Single centre, Boston, USA, 2008 to 2019</text>
+<text x="62" y="210" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">36,069 ICU stays</text>
+<text x="62" y="244" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">Development 25,248  |  Hold-out 10,821</text>
+<rect x="30" y="300" width="530" height="180" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<rect x="30" y="300" width="12" height="180" rx="6" fill="#52514e"/>
+<text x="62" y="342" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">eICU-CRD, version 2.0</text>
+<text x="62" y="376" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">208 US hospitals, 2014 to 2015</text>
+<text x="62" y="410" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">86,403 ICU stays</text>
+<text x="62" y="444" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">External validation, no recalibration</text>
+<text x="30" y="520" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#52514e">First ICU stay of adults (≥18 years) who remained in the ICU for at least 28 hours</text>
+<rect x="625" y="150" width="525" height="148" rx="12" ry="12" fill="#eaf2fc" stroke="#2a78d6" stroke-width="2"/>
+<text x="647" y="190" font-family="Inter" font-size="23" font-weight="700" text-anchor="start" fill="#1d1d1b">Covariates L, measured 0 to 24 h</text>
+<text x="647" y="220" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">Vital signs, laboratory values, SOFA,</text>
+<text x="647" y="250" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">comorbidities, age, sex and race group</text>
+<text x="647" y="280" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">177 variables</text>
+<rect x="1150" y="368" width="800" height="112" rx="12" ry="12" fill="#fdf4e0" stroke="#eda100" stroke-width="2"/>
+<text x="1172" y="408" font-family="Inter" font-size="23" font-weight="700" text-anchor="start" fill="#1d1d1b">Treatment A, recorded after 24 h</text>
+<text x="1172" y="438" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">Vasopressors, mechanical ventilation or</text>
+<text x="1172" y="468" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">renal replacement therapy (composite and each)</text>
+<rect x="1575" y="150" width="375" height="148" rx="12" ry="12" fill="#fcebeb" stroke="#e34948" stroke-width="2"/>
+<text x="1597" y="190" font-family="Inter" font-size="23" font-weight="700" text-anchor="start" fill="#1d1d1b">Outcome Y</text>
+<text x="1597" y="220" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">In-hospital mortality,</text>
+<text x="1597" y="250" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">assessed at discharge</text>
+<text x="1597" y="280" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">or death</text>
+<line x1="615" y1="330" x2="1960" y2="330" stroke="#1d1d1b" stroke-width="5"/>
+<path d="M1973,330 L1953,319 L1953,341 z" fill="#1d1d1b"/>
+<line x1="1150" y1="112" x2="1150" y2="492" stroke="#eda100" stroke-width="3.5" stroke-dasharray="10,8"/>
+<path d="M1150,308 L1172,330 L1150,352 L1128,330 z" fill="#eda100" stroke="#ffffff" stroke-width="3"/>
+<text x="1150" y="104" font-family="Inter" font-size="23" font-weight="700" text-anchor="middle" fill="#1d1d1b">Decision anchor (24 h): the score is computed and a policy would act</text>
+<circle cx="625" cy="330" r="10" fill="#1d1d1b"/>
+<circle cx="1240" cy="330" r="10" fill="#1d1d1b"/>
+<text x="631" y="370" font-family="Inter" font-size="22" font-weight="400" text-anchor="start" fill="#52514e">0 h: ICU admission</text>
+<circle cx="1240" cy="330" r="8" fill="#ffffff" stroke="#1d1d1b" stroke-width="3"/>
+<text x="1254" y="314" font-family="Inter" font-size="21" font-weight="400" text-anchor="start" fill="#52514e">28 h: minimum stay</text>
+<circle cx="1915" cy="330" r="12" fill="#e34948" stroke="#ffffff" stroke-width="3"/>
+<line x1="1915" y1="300" x2="1915" y2="316" stroke="#e34948" stroke-width="2.5"/>
+<line x1="30" y1="560" x2="1970" y2="560" stroke="#e3e2de" stroke-width="2"/>
+<circle cx="52" cy="600" r="24" fill="#1d1d1b"/>
+<text x="52" y="610" font-family="Inter" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">B</text>
+<text x="92" y="612" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#1d1d1b">Prescriptive Safety Audit: what would happen if the score guided organ support?</text>
+<rect x="30" y="655" width="400" height="92" rx="14" ry="14" fill="#eaf2fc" stroke="#2a78d6" stroke-width="2"/>
+<rect x="30" y="655" width="12" height="92" rx="6" fill="#2a78d6"/>
+<text x="60" y="693" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">Predicted risk r</text>
+<text x="60" y="725" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">five calibrated classifiers</text>
+<rect x="30" y="765" width="400" height="92" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<rect x="30" y="765" width="12" height="92" rx="6" fill="#52514e"/>
+<text x="60" y="803" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">Observed treatment A</text>
+<text x="60" y="835" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">organ support given or not</text>
+<rect x="30" y="875" width="400" height="92" rx="14" ry="14" fill="#efedfb" stroke="#6250d6" stroke-width="2"/>
+<rect x="30" y="875" width="12" height="92" rx="6" fill="#6250d6"/>
+<text x="60" y="913" font-family="Inter" font-size="24" font-weight="700" text-anchor="start" fill="#1d1d1b">Estimated benefit b = −τ(L)</text>
+<text x="60" y="945" font-family="Inter" font-size="24" font-weight="400" text-anchor="start" fill="#1d1d1b">doubly robust learner</text>
+<rect x="490" y="655" width="340" height="132" rx="14" ry="14" fill="#fdf4e0" stroke="#eda100" stroke-width="2.5"/>
+<text x="660" y="697" font-family="Inter" font-size="24" font-weight="700" text-anchor="middle" fill="#1d1d1b">Threshold policy</text>
+<text x="660" y="729" font-family="Inter" font-size="24" font-weight="400" text-anchor="middle" fill="#1d1d1b">Support if r ≥ t</text>
+<text x="660" y="761" font-family="Inter" font-size="24" font-weight="400" text-anchor="middle" fill="#1d1d1b">41 thresholds, 0.02 to 0.60</text>
+<line x1="432" y1="701" x2="484" y2="701" stroke="#52514e" stroke-width="3" marker-end="url(#ah)"/>
+<text x="1225" y="668" font-family="Inter" font-size="25" font-weight="700" text-anchor="middle" fill="#1d1d1b">Policy compared with observed care</text>
+<text x="1115.0" y="712" font-family="Inter" font-size="22" font-weight="600" text-anchor="middle" fill="#52514e">No support (r &lt; t)</text>
+<text x="1335.0" y="712" font-family="Inter" font-size="22" font-weight="600" text-anchor="middle" fill="#52514e">Support (r ≥ t)</text>
+<rect x="1009" y="734" width="212" height="96" rx="10" ry="10" fill="#fdece5" stroke="#eb6834" stroke-width="2"/>
+<text x="1115.0" y="776" font-family="Inter" font-size="25" font-weight="700" text-anchor="middle" fill="#1d1d1b">Withdraw</text>
+<text x="1115.0" y="810" font-family="Inter" font-size="25" font-weight="400" text-anchor="middle" fill="#1d1d1b">Δ = b</text>
+<rect x="1229" y="734" width="212" height="96" rx="10" ry="10" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<text x="1335.0" y="776" font-family="Inter" font-size="25" font-weight="600" text-anchor="middle" fill="#1d1d1b">No change</text>
+<text x="1335.0" y="810" font-family="Inter" font-size="25" font-weight="400" text-anchor="middle" fill="#1d1d1b">Δ = 0</text>
+<rect x="1009" y="838" width="212" height="96" rx="10" ry="10" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<text x="1115.0" y="880" font-family="Inter" font-size="25" font-weight="600" text-anchor="middle" fill="#1d1d1b">No change</text>
+<text x="1115.0" y="914" font-family="Inter" font-size="25" font-weight="400" text-anchor="middle" fill="#1d1d1b">Δ = 0</text>
+<rect x="1229" y="838" width="212" height="96" rx="10" ry="10" fill="#fdece5" stroke="#eb6834" stroke-width="2"/>
+<text x="1335.0" y="880" font-family="Inter" font-size="25" font-weight="700" text-anchor="middle" fill="#1d1d1b">Escalate</text>
+<text x="1335.0" y="914" font-family="Inter" font-size="25" font-weight="400" text-anchor="middle" fill="#1d1d1b">Δ = −b</text>
+<text x="989" y="776" font-family="Inter" font-size="22" font-weight="700" text-anchor="end" fill="#1d1d1b">Treated</text>
+<text x="989" y="806" font-family="Inter" font-size="22" font-weight="400" text-anchor="end" fill="#1d1d1b">A = 1</text>
+<text x="989" y="880" font-family="Inter" font-size="22" font-weight="700" text-anchor="end" fill="#1d1d1b">Untreated</text>
+<text x="989" y="910" font-family="Inter" font-size="22" font-weight="400" text-anchor="end" fill="#1d1d1b">A = 0</text>
+<line x1="832" y1="704" x2="1001" y2="704" stroke="#52514e" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M432,811 L870,811" stroke="#52514e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M432,921 L560,921 L560,975 L1225,975 L1225,944" stroke="#52514e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="880" y="963" font-family="Inter" font-size="21" font-weight="400" text-anchor="middle" fill="#52514e" font-style="italic">b sets the size of Δ for each changed decision</text>
+<rect x="1530" y="650" width="440" height="300" rx="14" ry="14" fill="#fcebeb" stroke="#e34948" stroke-width="2.5"/>
+<text x="1554" y="690" font-family="Inter" font-size="23" font-weight="700" text-anchor="start" fill="#1d1d1b">Expected consequences</text>
+<text x="1554" y="721" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">Harmful change: Δ &gt; 0.01</text>
+<text x="1554" y="752" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">EED(t): net excess deaths</text>
+<text x="1554" y="783" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">per 1000 patients</text>
+<text x="1554" y="814" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">DHI: mean EED over thresholds</text>
+<text x="1554" y="845" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">PSS: mean share not harmful</text>
+<text x="1554" y="876" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">Escalation and withdrawal</text>
+<text x="1554" y="907" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">reported separately</text>
+<line x1="1451" y1="834" x2="1522" y2="834" stroke="#52514e" stroke-width="3" marker-end="url(#ah)"/>
+<line x1="30" y1="1000" x2="1970" y2="1000" stroke="#e3e2de" stroke-width="2"/>
+<circle cx="52" cy="1040" r="24" fill="#1d1d1b"/>
+<text x="52" y="1050" font-family="Inter" font-size="30" font-weight="700" text-anchor="middle" fill="#ffffff">C</text>
+<text x="92" y="1052" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#1d1d1b">Validity gate: screen the effect model before interpreting any harm estimate</text>
+<rect x="30" y="1100" width="375" height="150" rx="14" ry="14" fill="#efedfb" stroke="#6250d6" stroke-width="2"/>
+<circle cx="70" cy="1140" r="20" fill="#6250d6"/>
+<text x="70" y="1149" font-family="Inter" font-size="24" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+<text x="102" y="1149" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">Direction</text>
+<text x="54" y="1192" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">Adjusted average effect agrees</text>
+<text x="54" y="1223" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">with clinical knowledge</text>
+<rect x="430" y="1100" width="375" height="150" rx="14" ry="14" fill="#efedfb" stroke="#6250d6" stroke-width="2"/>
+<circle cx="470" cy="1140" r="20" fill="#6250d6"/>
+<text x="470" y="1149" font-family="Inter" font-size="24" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+<text x="502" y="1149" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">Discrimination</text>
+<text x="454" y="1192" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">c-for-benefit above a floor set</text>
+<text x="454" y="1223" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">by a semi-synthetic benchmark</text>
+<rect x="830" y="1100" width="375" height="150" rx="14" ry="14" fill="#efedfb" stroke="#6250d6" stroke-width="2"/>
+<circle cx="870" cy="1140" r="20" fill="#6250d6"/>
+<text x="870" y="1149" font-family="Inter" font-size="24" font-weight="700" text-anchor="middle" fill="#ffffff">3</text>
+<text x="902" y="1149" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">Calibration</text>
+<text x="854" y="1192" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">Predicted benefit tracks</text>
+<text x="854" y="1223" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">observed benefit</text>
+<line x1="1205" y1="1175" x2="1262" y2="1175" stroke="#52514e" stroke-width="3" marker-end="url(#ah)"/>
+<path d="M1350,1097 L1436,1175 L1350,1253 L1264,1175 z" fill="#ffffff" stroke="#1d1d1b" stroke-width="3"/>
+<text x="1350" y="1169" font-family="Inter" font-size="24" font-weight="700" text-anchor="middle" fill="#1d1d1b">All three</text>
+<text x="1350" y="1199" font-family="Inter" font-size="24" font-weight="700" text-anchor="middle" fill="#1d1d1b">pass?</text>
+<rect x="1490" y="1080" width="485" height="130" rx="14" ry="14" fill="#e6f6ef" stroke="#1baf7a" stroke-width="2.5"/>
+<circle cx="1530" cy="1124" r="20" fill="#1baf7a"/>
+<path d="M1521,1125 L1528,1132 L1540,1117" stroke="#ffffff" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1563" y="1133" font-family="Inter" font-size="23" font-weight="700" text-anchor="start" fill="#1d1d1b">Pass: verdict may be considered</text>
+<text x="1563" y="1163" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">under stated assumptions; passing</text>
+<text x="1563" y="1193" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">does not certify the verdict</text>
+<rect x="1490" y="1228" width="485" height="130" rx="14" ry="14" fill="#fcebeb" stroke="#e34948" stroke-width="2.5"/>
+<circle cx="1530" cy="1272" r="20" fill="#e34948"/>
+<path d="M1523,1265 L1537,1279 M1537,1265 L1523,1279" stroke="#ffffff" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1563" y="1281" font-family="Inter" font-size="23" font-weight="700" text-anchor="start" fill="#1d1d1b">Fail: verdict not verified</text>
+<text x="1563" y="1311" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">report as indeterminate; improve</text>
+<text x="1563" y="1341" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#1d1d1b">the design or evaluate prospectively</text>
+<path d="M1436,1175 L1462,1175 L1462,1144 L1482,1144" stroke="#52514e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+<path d="M1462,1175 L1462,1292 L1482,1292" stroke="#52514e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ah)"/>
+<text x="30" y="1392" font-family="Inter" font-size="23" font-weight="400" text-anchor="start" fill="#52514e" font-style="italic">The audit needs three inputs per patient (r, A and b) and applies to any risk score and any binary treatment.</text>
+</svg>

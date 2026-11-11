@@ -1,0 +1,5 @@
+negative_control_outcome,naive_association,adjusted_effect
+age_over_median (immutable),-0.004,-0.0
+sex_female (immutable),-0.02,-0.0
+"in_hospital_mortality (real, reference)",0.17,0.065
+"sham exposure (random, no causal path)",0.003,0.001

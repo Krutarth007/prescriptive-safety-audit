@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2200" height="1100" viewBox="0 0 2200 1100">
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#52514e"/></marker></defs>
+<rect width="2200" height="1100" fill="#ffffff"/>
+<text x="40" y="78" font-family="Inter" font-size="54" font-weight="800" text-anchor="start" fill="#1d1d1b">Accurate is not the same as safe to act on</text>
+<text x="40" y="126" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#52514e">Two-database audit of ICU mortality models used to guide organ support (MIMIC-IV 36,069 and eICU-CRD 86,403 stays)</text>
+<rect x="40" y="170" width="500" height="560" rx="18" ry="18" fill="#eaf2fc" stroke="#2a78d6" stroke-width="3"/>
+<rect x="40" y="170" width="500" height="70" rx="18" fill="#2a78d6"/>
+<rect x="40" y="215" width="500" height="25" fill="#2a78d6"/>
+<text x="68" y="217" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#ffffff">1  Prediction</text>
+<rect x="580" y="170" width="500" height="560" rx="18" ry="18" fill="#fdf4e0" stroke="#eda100" stroke-width="3"/>
+<rect x="580" y="170" width="500" height="70" rx="18" fill="#eda100"/>
+<rect x="580" y="215" width="500" height="25" fill="#eda100"/>
+<text x="608" y="217" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#ffffff">2  Policy audit</text>
+<rect x="1120" y="170" width="500" height="560" rx="18" ry="18" fill="#efedfb" stroke="#6250d6" stroke-width="3"/>
+<rect x="1120" y="170" width="500" height="70" rx="18" fill="#6250d6"/>
+<rect x="1120" y="215" width="500" height="25" fill="#6250d6"/>
+<text x="1148" y="217" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#ffffff">3  Validity gate</text>
+<rect x="1660" y="170" width="500" height="560" rx="18" ry="18" fill="#fcebeb" stroke="#e34948" stroke-width="3"/>
+<rect x="1660" y="170" width="500" height="70" rx="18" fill="#e34948"/>
+<rect x="1660" y="215" width="500" height="25" fill="#e34948"/>
+<text x="1688" y="217" font-family="Inter" font-size="34" font-weight="700" text-anchor="start" fill="#ffffff">4  Verdict</text>
+<line x1="542" y1="450" x2="576" y2="450" stroke="#52514e" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="1082" y1="450" x2="1116" y2="450" stroke="#52514e" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="1622" y1="450" x2="1656" y2="450" stroke="#52514e" stroke-width="4" marker-end="url(#ah)"/>
+<text x="290" y="330" font-family="Inter" font-size="58" font-weight="800" text-anchor="middle" fill="#1d1d1b">0.909 | 0.822</text>
+<text x="290" y="370" font-family="Inter" font-size="25" font-weight="400" text-anchor="middle" fill="#52514e">AUROC, internal | external</text>
+<text x="68" y="440" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">Five calibrated classifiers</text>
+<text x="68" y="478" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">predict in-hospital mortality</text>
+<text x="68" y="516" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">24 hours after ICU admission</text>
+<circle cx="90" cy="650" r="22" fill="#1baf7a"/>
+<path d="M81,651 L88,658 L100,643" stroke="#ffffff" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="124" y="645" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">Passes conventional</text>
+<text x="124" y="677" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">validation</text>
+<text x="830" y="330" font-family="Inter" font-size="58" font-weight="800" text-anchor="middle" fill="#1d1d1b">+17.4 to −20.6</text>
+<text x="830" y="370" font-family="Inter" font-size="25" font-weight="400" text-anchor="middle" fill="#52514e">excess deaths per 1000 patients</text>
+<text x="608" y="440" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">If the score guided organ support,</text>
+<text x="608" y="478" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">estimated consequences reverse</text>
+<text x="608" y="516" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">sign as the risk threshold rises</text>
+<circle cx="630" cy="650" r="22" fill="#eda100"/>
+<text x="630" y="661" font-family="Inter" font-size="30" font-weight="800" text-anchor="middle" fill="#ffffff">!</text>
+<text x="664" y="645" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">Verdict changes with threshold</text>
+<text x="664" y="677" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">and treatment, barely with model</text>
+<circle cx="1162" cy="300" r="22" fill="#e34948"/>
+<path d="M1155,293 L1169,307 M1169,293 L1155,307" stroke="#ffffff" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1198" y="309" font-family="Inter" font-size="27" font-weight="700" text-anchor="start" fill="#1d1d1b">Direction</text>
+<text x="1198" y="343" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">support linked to higher</text>
+<text x="1198" y="377" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">mortality (+0.064)</text>
+<circle cx="1162" cy="440" r="22" fill="#e34948"/>
+<path d="M1155,433 L1169,447 M1169,433 L1155,447" stroke="#ffffff" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1198" y="449" font-family="Inter" font-size="27" font-weight="700" text-anchor="start" fill="#1d1d1b">Discrimination</text>
+<text x="1198" y="483" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">c-for-benefit 0.47 to 0.57,</text>
+<text x="1198" y="517" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">below benchmark floors</text>
+<circle cx="1162" cy="580" r="22" fill="#e34948"/>
+<path d="M1155,573 L1169,587 M1169,573 L1155,587" stroke="#ffffff" stroke-width="4.5" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1198" y="589" font-family="Inter" font-size="27" font-weight="700" text-anchor="start" fill="#1d1d1b">Calibration</text>
+<text x="1198" y="623" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">error close to the spread</text>
+<text x="1198" y="657" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">of the benefit estimates</text>
+<text x="1910" y="335" font-family="Inter" font-size="52" font-weight="800" text-anchor="middle" fill="#1d1d1b">Safety not</text>
+<text x="1910" y="395" font-family="Inter" font-size="52" font-weight="800" text-anchor="middle" fill="#1d1d1b">verified</text>
+<text x="1688" y="470" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">Neither safety nor harm can be</text>
+<text x="1688" y="508" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">concluded from this analysis</text>
+<text x="1688" y="546" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">under the treatment definitions</text>
+<text x="1688" y="584" font-family="Inter" font-size="27" font-weight="400" text-anchor="start" fill="#1d1d1b">and adjustment examined</text>
+<text x="1688" y="650" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">Next: well-defined decisions</text>
+<text x="1688" y="682" font-family="Inter" font-size="26" font-weight="700" text-anchor="start" fill="#1d1d1b">and prospective evaluation</text>
+<path d="M40,760 L40,782 L2160,782 L2160,760" stroke="#1d1d1b" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="500" y="764" width="1200" height="40" fill="#ffffff"/>
+<text x="1100" y="795" font-family="Inter" font-size="28" font-weight="700" text-anchor="middle" fill="#1d1d1b">The verification gap: predictive accuracy is not evidence of treatment safety</text>
+<text x="40" y="862" font-family="Inter" font-size="30" font-weight="700" text-anchor="start" fill="#1d1d1b">Proposed TRIGGER checklist: seven questions before a risk score triggers treatment</text>
+<rect x="40" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="86" cy="963" r="30" fill="#1d1d1b"/>
+<text x="86" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">T</text>
+<text x="130" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Treatment</text>
+<text x="130" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">decision</text>
+<rect x="347" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="393" cy="963" r="30" fill="#1d1d1b"/>
+<text x="393" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">R</text>
+<text x="437" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Realistic</text>
+<text x="437" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">direction</text>
+<rect x="654" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="700" cy="963" r="30" fill="#1d1d1b"/>
+<text x="700" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">I</text>
+<text x="744" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Individual</text>
+<text x="744" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">benefit</text>
+<rect x="961" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="1007" cy="963" r="30" fill="#1d1d1b"/>
+<text x="1007" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">G</text>
+<text x="1051" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Graded</text>
+<text x="1051" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">consequences</text>
+<rect x="1268" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="1314" cy="963" r="30" fill="#1d1d1b"/>
+<text x="1314" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">G</text>
+<text x="1358" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Groups and</text>
+<text x="1358" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">settings</text>
+<rect x="1575" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="1621" cy="963" r="30" fill="#1d1d1b"/>
+<text x="1621" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">E</text>
+<text x="1665" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Equivalent</text>
+<text x="1665" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">models</text>
+<rect x="1882" y="888" width="290" height="150" rx="14" ry="14" fill="#f3f3f1" stroke="#8a8984" stroke-width="2"/>
+<circle cx="1928" cy="963" r="30" fill="#1d1d1b"/>
+<text x="1928" y="975" font-family="Inter" font-size="34" font-weight="800" text-anchor="middle" fill="#ffffff">R</text>
+<text x="1972" y="955" font-family="Inter" font-size="25" font-weight="700" text-anchor="start" fill="#1d1d1b">Restraint when</text>
+<text x="1972" y="987" font-family="Inter" font-size="25" font-weight="400" text-anchor="start" fill="#1d1d1b">checks fail</text>
+<text x="40" y="1080" font-family="Inter" font-size="22" font-weight="400" text-anchor="start" fill="#52514e" font-style="italic">Retrospective study of adult women and men; empirical cohorts from the United States.</text>
+</svg>

@@ -1,0 +1,5 @@
+{
+  "c_for_benefit_hold": 0.565035509290787,
+  "c_for_benefit_ext": 0.5241881725549947,
+  "matching": "1:1 nearest-neighbour on predicted risk score (prognostic score)"
+}

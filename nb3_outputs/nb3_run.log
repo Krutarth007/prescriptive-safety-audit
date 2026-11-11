@@ -1,0 +1,48 @@
+00:55:03 | INFO    | Python 3.11.5 | numpy 1.24.4 | pandas 2.3.3 | scipy=True
+00:55:03 | INFO    | Loaded audit vectors: hold n=10821, ext n=86403
+00:55:03 | INFO    | Reused 10 Notebook 2 tables | primary model = lightgbm
+00:55:03 | INFO    | Analytic tables: MIMIC 36069, eICU 86403
+00:55:03 | INFO    | Recovered headline: PSS hold 0.821 / ext 0.856 | DHI hold -10.16 / ext -12.16 (add 5.09 / withdraw -15.25)
+00:55:03 | INFO    | DHI stability across 5 seeds: -9.98 +/- 0.37
+00:55:04 | INFO    | figure -> fig_causal_dag
+00:55:05 | INFO    | figure -> fig_study_design
+00:55:06 | INFO    | figure -> fig_consort_flow
+00:55:06 | INFO    | figure -> fig_graphical_abstract
+00:55:07 | INFO    | Hold-out split reconstructed and verified against cached vectors (n=10821).
+00:55:07 | INFO    | Table 1 written (13 rows).
+00:55:07 | INFO    | Table 2 written.
+00:55:07 | INFO    | Table 3 written.
+00:55:07 | INFO    | Table 4 written.
+00:55:08 | INFO    | Loaded design matrices from NB2 cache.
+00:55:23 | INFO    | Transportability decomposition: {'site_auc': 1.0, 'dhi_ext_unweighted': -12.163, 'dhi_ext_weighted_to_mimic': -0.0, 'attributable_to_covariate_shift': -12.163, 'n_shift': 86403}
+00:55:23 | INFO    | Table 5 written (10 rows).
+00:55:23 | INFO    | START  subgroup bootstrap CIs
+00:56:20 | INFO    | DONE   subgroup bootstrap CIs  (57.2s)
+00:56:20 | INFO    | Table 6 written (11 rows).
+00:56:21 | INFO    | Excel workbook written -> all_main_tables.xlsx
+00:56:21 | INFO    | NB3 modelling utilities ready (177 features).
+00:56:21 | INFO    | START  permutation inference
+00:56:59 | INFO    | DONE   permutation inference  (37.8s)
+00:56:59 | INFO    | Permutation p-values: benefit-null 0.0012 | risk-null 0.0012
+00:57:00 | INFO    | figure -> fig_permutation_inference
+00:57:00 | INFO    | START  negative-control outcomes
+00:57:44 | INFO    | DONE   negative-control outcomes  (43.8s)
+00:57:44 | INFO    | Negative controls computed (adjusted effect on immutable traits should be near 0).
+00:57:44 | INFO    | figure -> fig_negative_controls
+00:57:46 | INFO    | Matched c-for-benefit: hold 0.565 | ext 0.524 (0.5 = no discrimination of benefit)
+00:57:46 | INFO    | Benefit gate: individual-level finding
+00:57:48 | INFO    | Benefit calibration Eavg 0.084 | E90 0.158 | c-for-benefit(matched) 0.565
+00:57:50 | INFO    | figure -> fig_benefit_validation
+00:57:50 | INFO    | START  treatment-effect-model bootstrap
+01:23:12 | INFO    | DONE   treatment-effect-model bootstrap  (1522.3s)
+01:23:12 | INFO    | DHI confounding-inclusive band: [-10.16, 0.00]
+01:23:12 | INFO    | DHI incl. causal-model error: -13.48 [-18.17, -6.20]
+01:23:14 | INFO    | figure -> fig_uncertainty
+01:23:15 | INFO    | Tipping point: additive benefit bias 0.000 (0.00 SD) nullifies the hazard
+01:23:16 | INFO    | figure -> fig_tipping_point
+01:23:16 | INFO    | QBA (VanderWeele-Ding): observed RR 1.781; 6 of 25 (RR_EU,RR_UD) cells erase the effect
+01:23:18 | INFO    | figure -> fig_quantitative_bias_analysis
+01:23:19 | INFO    | figure -> fig_consolidated_robustness
+01:23:19 | INFO    | Reviewer response matrix written (15 items).
+01:23:19 | INFO    | Reproducibility report and TRIPOD+AI checklist written.
+01:23:20 | INFO    | Manuscript support drafts written to nb3_outputs\manuscript

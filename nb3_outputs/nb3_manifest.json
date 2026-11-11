@@ -1,0 +1,71 @@
+{
+  "generated": "2026-07-20T01:23:20",
+  "outputs": {
+    "tables": [
+      "all_main_tables.xlsx",
+      "benefit_calibration.csv",
+      "benefit_calibration_metrics.json",
+      "benefit_gate.csv",
+      "c_for_benefit.json",
+      "negative_controls.csv",
+      "permutation_inference.json",
+      "quantitative_bias_analysis.csv",
+      "seed_stability.json",
+      "subgroup_multiplicity.csv",
+      "table1_baseline_characteristics.csv",
+      "table1_baseline_characteristics.tex",
+      "table2_model_performance.csv",
+      "table2_model_performance.tex",
+      "table2b_delong_tests.csv",
+      "table3_prescriptive_safety.csv",
+      "table3_prescriptive_safety.tex",
+      "table4_external_validation.csv",
+      "table4_external_validation.tex",
+      "table5_sensitivity.csv",
+      "table6_subgroups.csv",
+      "table6_subgroups.tex",
+      "tipping_point.json",
+      "transportability_decomposition.csv",
+      "uncertainty_propagation.json"
+    ],
+    "figures": [
+      "fig_benefit_validation.png",
+      "fig_causal_dag.png",
+      "fig_consolidated_robustness.png",
+      "fig_consort_flow.png",
+      "fig_graphical_abstract.png",
+      "fig_negative_controls.png",
+      "fig_permutation_inference.png",
+      "fig_quantitative_bias_analysis.png",
+      "fig_study_design.png",
+      "fig_tipping_point.png",
+      "fig_uncertainty.png"
+    ],
+    "supplementary": [
+      "abbreviations.csv",
+      "reproducibility_report.json",
+      "reviewer_response_matrix.csv",
+      "reviewer_response_matrix.md",
+      "tripod_ai_checklist.csv"
+    ],
+    "manuscript": [
+      "abstract.md",
+      "figure_captions.md",
+      "limitations.md",
+      "results_narrative.md"
+    ]
+  },
+  "headline": {
+    "PSS_hold": 0.8211833315815338,
+    "PSS_ext": 0.8556964790057504,
+    "DHI_hold": -10.160543169288736,
+    "DHI_ext": -12.162981690785283,
+    "permutation_p_benefit": 0.0012484394506866417,
+    "c_for_benefit_hold": 0.565035509290787,
+    "tipping_bias_SD": 0.0
+  },
+  "reused_from": [
+    "nb1_outputs",
+    "nb2_outputs"
+  ]
+}

@@ -1,0 +1,3 @@
+c_for_benefit,ci_lo,ci_hi,interpretable_individual_level,cohort
+0.565,0.54,0.587,True,MIMIC-hold
+0.524,0.513,0.532,True,eICU-ext

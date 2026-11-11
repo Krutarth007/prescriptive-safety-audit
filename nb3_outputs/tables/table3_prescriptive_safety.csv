@@ -1,0 +1,11 @@
+model,cohort,PSS,DHI,DHI_frac,CAR_mean,concordance_r_b,PSS 95% CI,DHI 95% CI
+logreg,MIMIC-hold,0.813,-10.382,0.171,0.837,0.336,,
+random_forest,MIMIC-hold,0.832,-10.947,0.171,0.84,0.331,,
+hist_gb,MIMIC-hold,0.821,-10.262,0.146,0.839,0.315,,
+lightgbm,MIMIC-hold,0.821,-10.16,0.146,0.84,0.314,"[0.813, 0.829]","[-11.076, -9.195]"
+xgboost,MIMIC-hold,0.822,-10.107,0.146,0.84,0.315,,
+logreg,eICU-ext,0.856,-12.378,0.049,0.835,0.406,,
+random_forest,eICU-ext,0.831,-11.494,0.073,0.805,0.404,,
+hist_gb,eICU-ext,0.86,-12.373,0.024,0.833,0.379,,
+lightgbm,eICU-ext,0.856,-12.163,0.049,0.829,0.38,"[0.853, 0.859]","[-12.594, -11.705]"
+xgboost,eICU-ext,0.862,-12.437,0.024,0.836,0.376,,

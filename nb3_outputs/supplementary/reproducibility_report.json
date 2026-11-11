@@ -1,0 +1,38 @@
+{
+  "generated": "2026-07-20T01:23:19",
+  "random_seed": 20260707,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.11.5",
+  "package_versions": {
+    "numpy": "1.24.4",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.3.0",
+    "scipy": "1.11.1",
+    "matplotlib": "3.7.2"
+  },
+  "cohorts": {
+    "mimic": 36069,
+    "eicu": 86403,
+    "hold_out": 10821
+  },
+  "primary_model": "lightgbm",
+  "audit_definition": {
+    "outcome": "in_hospital_mortality",
+    "treatment": "any_organ_support_post",
+    "benefit_delta": 0.01,
+    "reference_threshold": 0.1061
+  },
+  "headline": {
+    "PSS_hold": 0.8211833315815338,
+    "PSS_ext": 0.8556964790057504,
+    "DHI_hold": -10.160543169288736,
+    "DHI_ext": -12.162981690785283,
+    "permutation_p_benefit": 0.0012484394506866417,
+    "c_for_benefit_hold": 0.565035509290787
+  },
+  "inputs_reused": {
+    "nb1_manifest": true,
+    "nb2_manifest": true,
+    "nb2_tables_reused": 10
+  }
+}

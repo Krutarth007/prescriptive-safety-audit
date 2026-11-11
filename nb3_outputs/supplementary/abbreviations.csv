@@ -1,0 +1,17 @@
+abbreviation,definition
+PSS,Prescriptive Safety Score
+DHI,Deployment Hazard Index
+HRR,Harmful Recommendation Rate
+HFR,Harmful Flip Rate
+TII,Treatment Influence Index
+CAR,Counterfactual Agreement Rate
+EED,Expected Excess Deaths
+CATE,Conditional Average Treatment Effect
+ATE,Average Treatment Effect
+IPW,Inverse Probability Weighting
+MSM,Marginal Structural Model
+AIPW,Augmented IPW (doubly robust)
+AUROC,Area Under the Receiver Operating Characteristic curve
+ECE,Expected Calibration Error
+SMD,Standardised Mean Difference
+SOFA,Sequential Organ Failure Assessment

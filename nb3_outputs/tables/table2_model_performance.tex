@@ -1,0 +1,20 @@
+\begin{table}
+\caption{Discrimination and calibration on the internal MIMIC-IV hold-out and external eICU-CRD cohorts.}
+\label{tab:performance}
+\begin{tabular}{lllrrrr}
+\toprule
+model & cohort & AUROC (95\% CI) & AUPRC & Brier & ECE & MCC \\
+\midrule
+logreg & MIMIC-hold & 0.893 (0.884-0.902) & 0.526000 & 0.068000 & 0.008000 & 0.387000 \\
+logreg & eICU-ext & 0.813 (0.809-0.818) & 0.368000 & 0.077000 & 0.030000 & 0.286000 \\
+random\_forest & MIMIC-hold & 0.891 (0.882-0.899) & 0.523000 & 0.068000 & 0.007000 & 0.390000 \\
+random\_forest & eICU-ext & 0.809 (0.804-0.813) & 0.354000 & 0.080000 & 0.033000 & 0.291000 \\
+hist\_gb & MIMIC-hold & 0.905 (0.898-0.913) & 0.557000 & 0.065000 & 0.008000 & 0.425000 \\
+hist\_gb & eICU-ext & 0.816 (0.811-0.820) & 0.367000 & 0.079000 & 0.040000 & 0.292000 \\
+lightgbm & MIMIC-hold & 0.909 (0.901-0.916) & 0.569000 & 0.064000 & 0.008000 & 0.438000 \\
+lightgbm & eICU-ext & 0.822 (0.817-0.826) & 0.381000 & 0.078000 & 0.037000 & 0.302000 \\
+xgboost & MIMIC-hold & 0.907 (0.899-0.915) & 0.561000 & 0.064000 & 0.006000 & 0.431000 \\
+xgboost & eICU-ext & 0.821 (0.816-0.825) & 0.378000 & 0.078000 & 0.038000 & 0.296000 \\
+\bottomrule
+\end{tabular}
+\end{table}

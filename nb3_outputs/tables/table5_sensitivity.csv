@@ -1,0 +1,11 @@
+analysis,scenario,PSS,DHI,DHI_frac,CAR_mean,TII,AUROC,n_surrogate_features,mechanism_present,note
+robustness,reference (MIMIC hold),0.8212,-10.1605,0.1463,0.8395,,,,,
+robustness,external (eICU),0.8557,-12.163,0.0488,0.8293,,,,,
+robustness,treatment prevalence 30%,0.7884,-6.7204,0.2195,0.8535,,,,,
+robustness,treatment prevalence 60%,0.8926,-21.3651,0.0488,0.7953,,,,,
+robustness,added 20% missingness,0.8444,-12.5109,0.122,0.8623,,,,,
+robustness,eICU no recalibration,0.8566,-12.6728,0.0488,0.8274,,,,,
+robustness,eICU site recalibrated,0.8312,-12.3202,0.0976,0.8256,,,,,
+ablation,full covariates,0.8212,-10.1605,,,0.0508,0.9088,0.0,False,
+ablation,surrogates removed,0.8212,-10.1605,,,0.0508,0.9088,0.0,False,
+unmeasured confounding,E-value (ATE),,,,,,,,,"RR 1.78, E-value 2.96"
